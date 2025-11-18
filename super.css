@@ -1,0 +1,66 @@
+#bg {
+    background: black;
+}
+.bgfx {
+    background: none;
+    position: absolute;
+}
+
+#jvwarn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    border: none;
+    background: none;
+}
+#intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 150px;
+    opacity: 0;
+}
+#intro:hover {
+    cursor: pointer;
+}
+
+div.main {
+    background: #0005;
+    width: 70%;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    color: white;
+}
+.under {
+    color: gray;
+    size: 16pt;
+}
+
+p {
+    size: 12pt;
+}
+h1 {
+    size: 20pt;
+}
+
+a {
+    color: #ad1fff;
+    font-style: normal;
+    text-decoration: underline;
+    transition: all 400ms;
+}
+a:hover {
+    color: #c561ff;
+    letter-spacing: 1px;
+}
+a:active {
+    color: #d6a3ff;
+}
